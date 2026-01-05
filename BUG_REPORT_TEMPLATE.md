@@ -38,5 +38,14 @@ Any known workaround for users/support.
 ## Owner / Triage
 Assignee, labels, priority, due date if urgent.
 
+## Code Quality & SOLID Principles (Fix Implementation)
+When implementing the fix, ensure:
+- **Single Responsibility**: Fix addresses the specific defect without scope creep.
+- **Open/Closed**: Extend existing abstractions rather than modifying stable code.
+- **Liskov Substitution**: Replacements maintain expected behavior contract.
+- **Interface Segregation**: Don't force new dependencies on unrelated code.
+- **Dependency Inversion**: Depend on abstractions (e.g., icon service) not concrete implementations.
+- **Best Practices**: TypeScript strict mode, proper error handling, logging for debuggability, no regressions.
+
 ## Fix Validation Plan
 Tests to add/run, environments to verify, rollout/rollback steps.

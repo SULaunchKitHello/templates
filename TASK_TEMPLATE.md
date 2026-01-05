@@ -18,6 +18,15 @@ Outline steps or options; call out decision points.
 ## Acceptance Criteria
 Checklist of observable results (e.g., tests passing, metric changes, docs updated).
 
+## Code Quality & SOLID Principles
+For code-related tasks, ensure adherence to:
+- **Single Responsibility**: Each class/function has one reason to change.
+- **Open/Closed**: Open for extension, closed for modification.
+- **Liskov Substitution**: Derived types are substitutable for base types.
+- **Interface Segregation**: Depend on focused, purpose-specific interfaces.
+- **Dependency Inversion**: Depend on abstractions, not concrete implementations.
+- **Best Practices**: TypeScript strict mode, proper error handling, no console logs in prod, accessibility (a11y), security (no XSS/injection risks).
+
 ## Dependencies
 Upstream/downstream work, access needs, scheduling constraints.
 
